@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="top-bar">
+        <div class="date" id="current-date">
+            <!-- Date will be inserted by JavaScript -->
+        </div>
+        <div class="logo">Logo</div>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        </ul>
+    </nav>
+
+
+
+<main class="articles-container" style="max-width: 1200px; margin: 0 auto; padding: 0 2rem;">
+    
+    <!-- Article 1 - AI Technology -->
+    <article class="article-card">
+        <div class="thumbnail">
+            <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995" alt="AI Technology - Artificial Intelligence Visualization">
+        </div>
+        <div class="article-content">
+            <h2 class="article-title">The Future of AI Technology in 2024</h2>
+            <p class="article-description">Explore the latest developments in artificial intelligence and how they're shaping our future. From machine learning breakthroughs to practical applications in daily life.</p>
+            <a href="articles/article1.html" class="read-more">Read more</a>
+        </div>
+    </article>
+
+    <!-- Article 2 - Web Development -->
+    <article class="article-card">
+        <div class="thumbnail">
+            <img src="https://images.unsplash.com/photo-1627398242454-45a1465c2479" alt="Modern Web Development">
+        </div>
+        <div class="article-content">
+            <h2 class="article-title">Modern Web Development Trends</h2>
+            <p class="article-description">Discover the latest web development frameworks, tools, and methodologies that are revolutionizing how we build websites and applications.</p>
+            <a href="articles/article2.html" class="read-more">Read more</a>
+        </div>
+    </article>
+
+    <!-- Article 3 - Cybersecurity -->
+    <article class="article-card">
+        <div class="thumbnail">
+            <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b" alt="Cybersecurity Protection">
+        </div>
+        <div class="article-content">
+            <h2 class="article-title">Essential Cybersecurity Practices</h2>
+            <p class="article-description">Learn about crucial cybersecurity measures to protect your digital assets and personal information in an increasingly connected world.</p>
+            <a href="articles/article3.html" class="read-more">Read more</a>
+        </div>
+    </article>
+
+    <!-- Article 4 - Cloud Computing -->
+    <article class="article-card">
+        <div class="thumbnail">
+            <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa" alt="Cloud Computing Technology">
+        </div>
+        <div class="article-content">
+            <h2 class="article-title">Cloud Computing Solutions</h2>
+            <p class="article-description">Understanding cloud infrastructure and how businesses can leverage cloud services for better scalability and efficiency.</p>
+            <a href="articles/article4.html" class="read-more">Read more</a>
+        </div>
+    </article>
+
+    <!-- Article 5 - Mobile Development -->
+    <article class="article-card">
+        <div class="thumbnail">
+            <img src="https://images.unsplash.com/photo-1526498460520-4c246339dccb" alt="Mobile App Development">
+        </div>
+        <div class="article-content">
+            <h2 class="article-title">Mobile App Development Guide</h2>
+            <p class="article-description">A comprehensive guide to mobile app development, including best practices, frameworks, and user experience considerations.</p>
+            <a href="articles/article5.html" class="read-more">Read more</a>
+        </div>
+    </article>
+</main>
+
+<section class="popular-posts">
+    <h2 class="section-title">Popular Posts</h2>
+    <div class="popular-posts-grid">
+        <div class="popular-article-card">
+            <div class="thumbnail">
+                <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b" alt="Cybersecurity">
+                <div class="card-overlay">
+                    <h3 class="card-title">Essential Cybersecurity Practices</h3>
+                    <p class="card-excerpt">Learn about crucial cybersecurity measures to protect your digital assets...</p>
+                    <a href="articles/article3.html" class="read-more">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="popular-article-card">
+            <div class="thumbnail">
+                <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa" alt="Cloud Computing">
+                <div class="card-overlay">
+                    <h3 class="card-title">Cloud Computing Solutions</h3>
+                    <p class="card-excerpt">Understanding cloud infrastructure and how businesses can leverage cloud services...</p>
+                    <a href="articles/article4.html" class="read-more">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="popular-article-card">
+            <div class="thumbnail">
+                <img src="https://images.unsplash.com/photo-1526498460520-4c246339dccb" alt="Mobile Development">
+                <div class="card-overlay">
+                    <h3 class="card-title">Mobile App Development Guide</h3>
+                    <p class="card-excerpt">A comprehensive guide to mobile app development, including best practices...</p>
+                    <a href="articles/article5.html" class="read-more">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <script src="script.js"></script>
+</body>
+<footer class="footer"></footer>
+    <div class="footer-top">
+        <div class="quote" id="daily-quote">
+            <!-- Quote will be updated via JavaScript -->
+        </div>
+        <div class="footer-logo">Logo</div>
+        <div class="footer-social">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>Made with <span class="heart">❤</span> by Jayesh Tolani</p>
+    </div>
+</footer>
+</html>
